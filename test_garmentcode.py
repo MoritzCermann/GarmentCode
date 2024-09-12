@@ -47,7 +47,9 @@ if __name__ == '__main__':
             Path(sys_props['output']), 
             tag='_' + datetime.now().strftime("%y%m%d-%H-%M-%S"), 
             to_subfolder=True, 
-            with_3d=False, with_text=False, view_ids=False,
+            with_3d=True,
+            with_text=True,
+            view_ids=True,
             with_printable=True
             )
 
